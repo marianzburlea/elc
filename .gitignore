@@ -1,0 +1,6 @@
+.eslintrc.json
+node_modules/
+.local_server
+.DS_Store
+yarn-error.log
+.logfile.txt

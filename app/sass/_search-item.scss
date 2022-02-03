@@ -1,0 +1,37 @@
+.search-item {
+  display: grid;
+  grid-gap: 2px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__about {
+    font-size: 15px;
+    font-weight: medium;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+
+  &__price {
+    font-size: 22px;
+    font-weight: bold;
+    color: darkgreen;
+  }
+
+  &__result-list {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 1rem;
+    grid-gap: 1rem;
+  }
+
+  &__picture {
+    background-image: var(--image);
+    background-position: center;
+    background-size: contain;
+    padding-top: 177.78%;
+    background-repeat: no-repeat;
+  }
+}
